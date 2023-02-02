@@ -1,0 +1,236 @@
+#body{}
+
+#parent {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius:50%;
+	background-color:#bcbf11;
+}
+#mouth1 {	
+	background-color: #fff;
+	position: absolute;
+	left: 150px;
+	top: 255px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	z-index: 1;
+}			
+#mouth2 {
+	background-color: #bcbf11;
+	position: absolute;
+	left: 120px;
+	top: 130px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	z-index: 2;
+}
+#child {
+	border-radius:50%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color:white;
+	width: 100px;
+	height: 100px;
+	z-index: 3;
+}#child2 {
+	border-radius:50%;
+	position: absolute;
+	top: 20%;
+	left: 60%;
+	background-color:white;
+	width: 100px;
+	height: 100px;z-index: 3;
+}#child3 {
+	border-radius:50%;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	background-color:white;
+	width: 100px;
+	height: 100px;	z-index: 3;
+}
+
+#elem {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color:#dbde3e;
+}
+#content {
+	margin: 0 auto;
+	width: 300px;
+	text-align: justify;
+	font: 16px Arial;
+}
+#te{
+	margin: 0 auto;
+	width: 40px;
+	text-align: justify;		
+}
+
+#pp{
+	width: 400px;
+	text-align: justify;
+}
+#pi{
+	float: left;
+	margin: 10px;
+	opacity: 0.5;
+}
+#pi2{
+	left:40%;
+	float:right;
+	margin: 10px;
+	opacity: 0.5;
+}
+p {
+	margin-left: 30px;
+	border: 1px solid green;
+}
+
+.parenty {
+	border: 1px solid red;
+	text-align: justify;
+	margin: 10px;
+}
+.childy {
+	float:right;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+	margin: 10px;text-align: center ;
+	
+}
+
+.p {
+	margin: 10px;
+	border: none;
+}
+
+.parentty	{margin: 10px;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	align-items: center; /* центрируем по побочной оси */
+justify-content:center;
+
+}
+.childyy {
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+	margin: 10px;
+	
+}
+.pparentty	{margin: 10px;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* центрируем по побочной оси */
+justify-content:center;
+
+}
+.pchildyy {
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+	margin: 10px;	
+}
+.elem {
+	align-self: flex-start;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+#menu {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	background-color: #484848;
+}
+#menu a {
+	margin: 0 5px;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #fff;
+	font: bold 14px Arial;
+}
+#menu a:hover, #menu a.active {
+	color: #484848;
+	background-color: #fff;
+}
+
+#content {
+	padding: 0 30px 20px;
+}
+#content h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#content p {
+	padding: 0 10px;
+	margin-bottom: 5px;
+	font: 18px/1.3 Arial;
+	text-align: justify;
+}
+.aa{
+	color: blue;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin-bottom: 30px;
+}
+.wrapper.line {
+	background-color: #008040;
+	color: white;
+}
+.center {
+	width: 800px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.wrapper h1 {
+	margin: 0;
+	font: 40px "Times New Roman";
+}
+.wrapper h2 {
+	margin: 0;
+	font: 25px "Times New Roman";
+}
+.wrapper p {
+	font: 16px/1.4 Arial;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
