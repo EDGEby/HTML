@@ -1,0 +1,35 @@
+h1{
+	font-family: "Courier New";
+	font-size:24px;
+	text-align:center;
+	margin:25px 25px;
+	
+}
+p{
+	font-family:"Verdana";
+	font-size:12px;
+}
+#ep1{
+	text-align:right;
+	font-style:italic;
+	font-size:14px;
+	margin-right:10%;
+}
+#ep2{
+	text-align:right;
+	font-size:12px;
+	margin-right:10%;
+}
+div p{margin-bottom:20px;}
+span.cl{
+	font-style:bolt;
+	font-size:18px;
+	font-weight:800;
+}
+span.s1{	opacity: 1.0;}
+span.s2{	opacity: 0.8;}
+span.s3{	opacity: 0.6;}
+span.s4{	opacity :0.4;}
+span.s5{	opacity: 0.3;}
+span.s6{	opacity :0.2;}
+span.s7{	opacity: 0.1;}

@@ -1,0 +1,16 @@
+h1{
+	font-family: "Courier New";
+	font-size:24px;
+	text-align:center;
+	margin:25px 25px;
+	
+}
+body > ul > li{
+	list-style-type:none;	
+}
+body > ul > li:before{
+	content:">";
+}
+li > ul {
+	list-style-image:url('icons/winter_16.png');
+}
