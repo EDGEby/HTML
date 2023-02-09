@@ -1,0 +1,23 @@
+div{
+	margin:10px;
+}
+p{
+	padding:10px 30px;
+}
+.qqq{
+	font-size:14px;
+	text-align:left;
+}
+p.header{
+	margin-bottom:0px;
+	padding-left:50px;
+	background-color:#0B432B;
+}
+p.text{
+	margin-top:0px;
+	background-color:#1D6A46;
+}
+a{
+	vertical-align:sup;
+	font-size:8px;
+}

@@ -1,0 +1,19 @@
+#body{
+	background-image: url("bg.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	display:flex;
+	
+}
+div{
+	margin:auto;
+	color: white;
+	background-color:black;
+	padding: 1em 3em;
+	opacity:0.8;
+	
+}
+p{
+	opacity:1.0;
+}
