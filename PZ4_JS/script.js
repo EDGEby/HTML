@@ -20,7 +20,7 @@ console.log(txt);
 	
 	
 	
-	 let sw=	prompt("enter age",1);
+	 let sw=Number(prompt("enter age",1));
 	switch(sw){
 		case 0:	
 			console.log("11");
