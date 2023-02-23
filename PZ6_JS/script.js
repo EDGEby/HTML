@@ -95,6 +95,7 @@ let maxmax=0;
 let temp=0;
 let tempArr=0;
 let tempmax=[];
+let FT=false;
 for(let i=0; i<n;i++){
 	let x = Math.floor(Math.random()*11);
 	arr.push(x);
@@ -108,18 +109,24 @@ for(let i=0;i<n;i++){
 			max++;
 		}
 	}
-	if(maxmax==max&& tempmax[tempArr]!=temp){
+	if(maxmax==max/*&& tempmax[tempArr]!=temp*/){
 		for(let k=0;k<tempmax.length;k++){
-			tempArr++;
+			if(temp==tempmax[k]){
+				FT = false;}			
+		}
+		if(FT == true){
+			tempArr=tempmax.length;
 			tempmax[tempArr]=temp;
+			//tempArr=0;
 		}
 	}
 	if(maxmax<max){
-	maxmax=max;
-	tempmax[tempArr]=temp;
+		tempArr=0;
+		maxmax=max;
+		tempmax[tempArr]=temp;
 	}
 	
-	
+	FT = true;
 	max=0;
 }
 console.log('colvo '+maxmax);
