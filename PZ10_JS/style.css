@@ -1,0 +1,18 @@
+div{
+	background:navy;
+	height:80px;
+	width:120px;
+	position:center;
+	margin-top:200px;
+	margin-left: auto;
+    margin-right: auto;
+}
+p{
+	color:white;
+	font-size:12px;
+	text-align:center;
+	padding-top:16%;
+}
+body{
+	margin:0;
+}
