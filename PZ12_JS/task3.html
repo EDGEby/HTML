@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>hw1</title>
+<style>
+
+</style>
+</head>
+<body>
+
+<button id="btnOpen"> IT Step</button>
+<button onclick="newWin.close()"> Close ITS </button>
+<script src ="script.js"></script>
+<br>
+<br>
+<br>
+
+<script>
+	document.write("<b>"+navigator.language+"</b>)
+	for(var lng of navigator.languages){
+		document.write(lng+',')
+		}
+</script>
+
+<br>
+<br>
+<br>
+
+<button onclick="history.back()">Back</button>
+<button onclick="history.forward()">Forward</button>
+<button onclick="document.write(history.length)"> historylength </button>
+
+
+<script>
+window.history.replaceState({'record':'0'},"page 0", "?record=0");
+window.history.pushState({'record':'1'},"page 1", "?record=1");
+window.history.pushState({'record':'2'},"page 2", "?record=2");
+window.history.pushState({'record':'3'},"page 3", "?record=3");
+
+window.history.back();
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
